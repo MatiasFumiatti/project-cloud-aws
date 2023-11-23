@@ -2,6 +2,7 @@ name: Deploy to S3
 
 on:
   pull_request:
+    types: [closed]
     branches:
       - main
     paths:
